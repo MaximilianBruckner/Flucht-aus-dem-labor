@@ -1,0 +1,21 @@
+/*  */
+@media (orientation: landscape){
+    @viewport{
+        viewport-fit: contain;
+        orientation: landscape;
+        height:100%; max-width: 1980px;
+        user-zoom: fixed;
+    }
+    .background{
+        max-width: 1980px;
+        height:100%;
+    }
+    .orerror{
+        display:none
+    }
+}
+@media (orientation: portait){
+    .orerror{
+        display: block;
+    }
+}

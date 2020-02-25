@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flucht aus dem Labor</title>
+</head>
+<body>
+    <div id="app" style="position:absolute">
+        <img class="background" v-bind:src="bckgrnd"/>
+    </div>
+    <div class="orerror" style="position:absolute; z-index: 1000000;">
+        <p style=" color:black; background:white">
+            Zum spielen empfehlen wir dir dein gerät zu drehen
+        </p>
+    </div>
+    
+    
+    <script src="https://unpkg.com/vue"></script> <!--fügt vue dem projekt hinzu -->
+    <script src="main.js"></script> <!-- quelle des js codes -->
+</body>
+</html>
